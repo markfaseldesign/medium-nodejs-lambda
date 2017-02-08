@@ -1,5 +1,4 @@
 var request = require("request");
-var parseString = require('xml2js').parseString;
 exports.handler = function(event, context, callback) {
 
 	callback = context.done;
